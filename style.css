@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    float: left;
+}
+.frame {
+    background-color: rgb(15,200,15,0.75);
+    box-shadow: 0px 4px 2px rgb(5,150,8,0.9);
+}
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans';
+}
+.header-item {
+    height: 64px;
+    float: left;
+    border-left: 1px solid rgb(64,64,64,0.5);
+    border-right: 1px solid rgb(128,128,128,0.5);
+}
+.header-title {
+    height: 64px;
+    float: left;
+    border-left: 1px solid rgb(92,92,92,0.5);
+    border-right: 1px solid rgb(128,128,128,0.5);
+}
+.text {
+    margin: 12px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,.2);
+}
+.headertext {
+    display: block;
+}
+a.headertext {
+    font-size: 32px;
+}
+img.bgimg {
+    z-index: -99999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
