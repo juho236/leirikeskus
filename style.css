@@ -2,6 +2,18 @@ header {
     width: 100%;
     float: left;
 }
+main {
+    padding: 8px;
+    position: absolute;
+    top: 128px;
+    left: 5vw;
+    width: calc(90vw - 16px);
+}
+img#icon {
+    width: 64px;
+    height: 64px;
+    float: left;
+}
 .frame {
     background-color: rgb(15,200,15,0.75);
     box-shadow: 0px 4px 2px rgb(5,150,8,0.9);
@@ -23,11 +35,16 @@ body {
     border-right: 1px solid rgb(128,128,128,0.5);
 }
 .text {
+    color: black;
+    text-decoration: none;
     margin: 12px;
     text-shadow: 3px 3px 0px rgba(0,0,0,.2);
 }
 .headertext {
     display: block;
+}
+.headertitle {
+    font-weight: bold;
 }
 a.headertext {
     font-size: 32px;
