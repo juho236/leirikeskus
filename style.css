@@ -55,6 +55,7 @@ img.bgimg {
     top: 0px;
     left: 0px;
     width: 100%;
+    filter: blur(4px);
 }
 div.popup {
     position: absolute;
@@ -67,4 +68,11 @@ div.popup {
 }
 .pointer {
     cursor: pointer;
+}
+input {
+    display: block;
+}
+div.inputframe {
+    margin: 8px;
+    float: left;
 }

@@ -13,3 +13,8 @@ const popup = (id,msg) => {
         document.body.appendChild(el)
     }
 } 
+
+const runForm = () => {
+    const id = document.URL.charAt(document.URL.length-1)
+    const options = ["Pieni Mökki","Suuri Mökki","Teltta","Asuntoautopaikka"]
+}
