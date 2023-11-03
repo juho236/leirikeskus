@@ -56,3 +56,15 @@ img.bgimg {
     left: 0px;
     width: 100%;
 }
+div.popup {
+    position: absolute;
+    display: inline;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 2;
+    border: 2px solid black;
+    padding: 4px;
+    color: white;
+}
+.pointer {
+    cursor: pointer;
+}
