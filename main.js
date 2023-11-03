@@ -16,5 +16,21 @@ const popup = (id,msg) => {
 
 const runForm = () => {
     const id = document.URL.charAt(document.URL.length-1)
-    const options = ["Pieni Mökki","Suuri Mökki","Teltta","Asuntoautopaikka"]
+    const options = ["Pieni Mökki","Suuri Mökki","Teltta","Asuntoautopaikka","Hotellihuone"]
+    const dropdownframe = document.createElement("div")
+    dropdownframe.classList = "dropdown"
+    const input = document.createElement("input")
+    input.type = "button"
+    input.onclick = () => {
+        if (dropdownframe.style.display == "none") {
+            dropdownframe.style.display = ""
+        } else {
+            dropdownframe.style.display = "none"
+        }
+    }
+    const select = (id) => {
+
+    }
+    select(id)
+    
 }
