@@ -18,25 +18,33 @@
         <div class="header-item"><a href="tilat.html" class="text headertext">Tilat</a></div>
         <div class="header-item"><a href="yhteystiedot.html" class="text headertext">Yhteystiedot</a></div>
     </header>
-    <main class="frame">
+    <main class="frame" id="main">
         <h1>Vuokrauslomake</h1>
-        <div class="inputframe">
-            <label for="etunimi">Etunimi</label>
-            <input type="text" id="etunimi">
-        </div>
-        <div class="inputframe">
-            <label for="sukunimi">Sukunimi</label>
-            <input type="text" id="sukunimi">
-        </div>
-        <div class="inputframe">
-            <label for="email">E-Mail</label>
-            <input type="email" id="email">
-        </div>
-        <div class="inputframe">
-            <label for="phn">Puhelinnumero</label>
-            <input type="tel" id="phn">
-        </div>
-        <div class="inputframe" id="frame"></div>
+        <form>
+            <div class="inputframe">
+                <label for="etunimi">Etunimi*</label>
+                <input required="true" type="text" id="etunimi">
+            </div>
+            <div class="inputframe">
+                <label for="sukunimi">Sukunimi*</label>
+                <input required="true" type="text" id="sukunimi">
+            </div>
+            <div class="inputframe">
+                <label for="email">E-Mail*</label>
+                <input required="true" type="email" id="email">
+            </div>
+            <div class="inputframe">
+                <label for="phn">Puhelinnumero*</label>
+                <input required="true" type="tel" id="phn">
+            </div>
+            <div class="inputframe" id="frame">
+                <label>Majoitusmuoto*</label>
+            </div>
+            <div class="inputframe">
+                <input type="reset" value="Tyhjennä">
+                <input type="submit" value="Lähetä">
+            </div>
+        </form>
     </main>
     <script>runForm()</script>
     <img id="bgimg" class="bgimg" src="Hirvaslahti_leirikeskus.jpg">

@@ -76,3 +76,7 @@ div.inputframe {
     margin: 8px;
     float: left;
 }
+img.smallIcon {
+    width: 16px;
+    height: 16px;
+}
